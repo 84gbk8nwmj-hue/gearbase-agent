@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "ed0b134f6efacac9",
+    "type": "split",
+    "children": [
+      {
+        "id": "5521ddec1120d5f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a4f2e09bcfcf6c7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a06e01d6f2040eee",
+    "type": "split",
+    "children": [
+      {
+        "id": "596dc9b4f583c23a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38c6a1523a58987d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "c050f2fe894d7921",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "be662cc4683eb18e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3df100b974f52ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "256c73aea3e8a611",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c961b32a4edfdc94",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "project_gearbase_agent.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "project_gearbase_agent.mdへのバックリンク"
+            }
+          },
+          {
+            "id": "b40ba475da0a8377",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "project_gearbase_agent.md.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "project_gearbase_agent.mdからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "fa625604b217cc79",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "a376ecb2886c14da",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "39b2646585eecdc5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "project_gearbase_agent.md.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "project_gearbase_agent.mdのアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false
+    }
+  },
+  "active": "38c6a1523a58987d",
+  "lastOpenFiles": [
+    "README.md",
+    "src/main.py",
+    "src/summarizer.py",
+    "src/reporter.py",
+    "src/collector.py",
+    "prompts/daily_prompt.md",
+    "reports",
+    "prompts",
+    "requirements.txt",
+    "src/config.py",
+    "src",
+    "project_gearbase_agent.md.md"
+  ]
+}
