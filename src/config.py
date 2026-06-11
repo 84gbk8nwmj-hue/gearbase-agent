@@ -30,4 +30,4 @@ RSS_FEEDS = {
 REPORTS_DIR = "reports"
 
 # Gemini設定
-GEMINI_MODEL_NAME = "gemini-1.5-flash"
+GEMINI_MODEL_NAME = "gemini-3-flash-preview"
