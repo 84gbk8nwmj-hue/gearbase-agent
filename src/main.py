@@ -1,4 +1,5 @@
 import os
+import time
 from .config import RSS_FEEDS, REPORTS_DIR
 from .collector import collect_all_data
 from .summarizer import summarize_content
@@ -14,7 +15,7 @@ def main():
     
     # 2. データ収集 (RSS + 本文抽出)
     print("情報収集を開始します...")
-    raw_data = collect_all_data(RSS_FEEDS)
+    raw_data = collect_all_data(RSS_FEEDS, total_limit=5)
     
     # 3. AIによる要約・生成
     print(f"{len(raw_data)} 件の記事が見つかりました。要約を生成中...")
@@ -24,6 +25,7 @@ def main():
         ai_output = summarize_content(item["content"], prompt_template)
         item["ai_output"] = ai_output
         processed_data.append(item)
+        time.sleep(13) # APIのレート制限（5RPM）を回避するためのウェイト
     
     # 4. レポート生成・保存
     print("レポートを作成しています...")
